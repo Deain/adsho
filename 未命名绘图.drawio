@@ -11,7 +11,7 @@
           <mxGeometry height="30" width="1000" x="300" y="78" as="geometry" />
         </mxCell>
         <mxCell id="field-zone" parent="1" style="swimlane;html=1;rounded=1;startSize=36;fillColor=#f0fdf4;swimlaneFillColor=#ffffff;strokeColor=#86efac;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#166534;horizontal=1;arcSize=0;" value="现场设备侧" vertex="1">
-          <mxGeometry height="695" width="875" x="45" y="135" as="geometry" />
+          <mxGeometry height="775" width="875" x="45" y="135" as="geometry" />
         </mxCell>
         <mxCell id="_3NzTG2FohDg6ten8kHg-3" parent="field-zone" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=18;fillColor=#dcfce7;strokeColor=#22c55e;strokeWidth=2;fontSize=14;fontColor=#14532d;shadow=1;arcSize=0;" value="&lt;b style=&quot;font-size:18px&quot;&gt;SPMU-857G / PMU&lt;/b&gt;&lt;br&gt;&lt;br&gt;PMU IDCODE：&lt;b&gt;0GZ00PN2&lt;/b&gt;&lt;br&gt;CFG 站名：000000中中中恒变&lt;br&gt;3号网口 IP：&lt;b&gt;12.100.100.21&lt;/b&gt;&lt;br&gt;4号网口 IP：&lt;b&gt;13.100.100.21&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(直连主站使用4号及以后网口)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;管理 8001｜实时 8000｜离线 8600&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;获取配置信息：开启检修 Prate软件-操作-文件传输工具&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;config/cpu01/ 目录获取 hconfigcom.txt、pconfigtab.txt 和 psetting.txt&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="345" x="25" y="370" as="geometry" />
@@ -24,6 +24,12 @@
             <mxPoint x="435" y="345" as="sourcePoint" />
             <mxPoint x="575" y="473" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Uca1tgfExlMP7XF6SXpt-1" parent="field-zone" style="rounded=0;whiteSpace=wrap;html=1;" value="ftp&lt;div&gt;IP:&amp;nbsp;10.100.100.6&lt;/div&gt;&lt;div&gt;root密码Zz@111111&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="510" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="Uca1tgfExlMP7XF6SXpt-2" parent="field-zone" style="rounded=0;whiteSpace=wrap;html=1;" value="Prate: 操作员2是XJ1qaz@2wsx &lt;br&gt;或点击关于弹窗中图标连续两次免登&lt;br&gt;进入后&lt;br&gt;再次点击关于图标两次，直到图标下显示“欢迎使用”&lt;br&gt;这时可通过ftp链接pmu&lt;div&gt;192.88.74.101&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;div&gt;账号user&lt;/div&gt;&lt;div&gt;密码123456&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="345" x="25" y="635" as="geometry" />
         </mxCell>
         <mxCell id="platform-zone" parent="1" style="swimlane;html=1;rounded=1;startSize=36;fillColor=#eff6ff;swimlaneFillColor=#ffffff;strokeColor=#93c5fd;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1d4ed8;horizontal=1;arcSize=0;" value="PMU 实时分析平台 / WAMS 主站侧" vertex="1">
           <mxGeometry height="565" width="595" x="960" y="135" as="geometry" />
